@@ -1,0 +1,68 @@
+h1, h2, h3, a
+{
+	font-weight: normal;
+	color: #0088dd;
+}
+
+h1
+{
+	font-size: 2.5em;
+	text-shadow: 1.5px 1.5px 2px #666666;
+}
+
+h2
+{
+	font-size: 1.3em;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+
+h3
+{
+	font-size: 1.5em;
+}
+
+p
+{
+	line-height: 1.4em;
+	color: #665544;
+  text-align: left; 
+}
+
+img {
+  width: 15px;
+}
+
+.review1{
+  text-align:middle;
+}
+.star-rating {
+  border:solid 1px #ccc;
+  display:flex;
+  flex-direction: row-reverse;
+  font-size:1.5em;
+  justify-content:space-around;
+  padding:0 .2em;
+  text-align:center;
+  width:5em;
+}
+
+.star-rating input {
+  display:none;
+}
+
+.star-rating label {
+  color:#ccc;
+  cursor:pointer;
+}
+
+.star-rating :checked ~ label {
+  color:#f90;
+}
+
+.star-rating label:hover,
+.star-rating label:hover ~ label {
+  color:#fc0;
+}
+
+
