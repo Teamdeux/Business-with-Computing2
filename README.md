@@ -59,8 +59,7 @@
 					</label>
 				<div>
 					<label>Comment:
-						<div>
-						<textarea row="13" cols="13"></textarea>
+						<div><textarea row="13" cols="13"></textarea>
 						</div>
 						<button>Submit</button>
 					</label>
