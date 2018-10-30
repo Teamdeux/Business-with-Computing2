@@ -2,8 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Year One</title>
-	<link rel="stylesheet" type="text/css" href="yearone.css">
+	<title>Year One</title><link rel="stylesheet" type="text/css" href="yearone.css">
 </head>
 <body>
 	<h1>Business with Computing</h1>
