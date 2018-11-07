@@ -1,0 +1,98 @@
+<form action="/sign-in-url" method="post">
+
+<h1> Login Page </h1>
+<body>
+  <img align="position:absolute; top=15px; right=250px "width=150px"; height:20px;" src= "http://devarshiayurved.com/images/login.jpg">
+<p id="message"> -----Please enter in your login details below----- </p>
+  <br>
+<div id="deets">
+<p>
+  <label> Username <input type="text" Placeholder="enter username here" required> </label>
+</p>
+<p>
+<label> Password <input type="text" minlength="8" Placeholder="minimum 8 characters" required> </label>
+</p>
+
+<p>
+  <label id="remember"> <input type="checkbox">Remember me </label>
+</p>
+  </div>
+
+<p>
+  <button id="proceed"> Proceed </button>
+  <div id="box1"></div>
+  <div id="box2"></div>
+  
+</body>
+
+
+
+//CSS
+
+
+
+h1 {
+  text-align: center;
+  font-size: 2.0em;
+}
+body {
+  text-align: center;
+  font-size: 1.75em;
+  font-family: arial;
+  background-color: #A8D3FF;
+}
+#box1 {
+  background-color:rgba(0,0,200,0.2);
+  position: absolute;
+  height:100%;
+  width: 15%;
+  left:1%;
+  top:10%;
+  bottom:0%;
+}
+
+#box2 {
+  background-color: rgba(0,0,200,0.2);
+  position: absolute;
+  height:100%;
+  width: 15%;
+  right:1%;
+  top:10%;
+  bottom:0%;
+}
+
+#deets {
+  background-color: white;
+  border: 2px solid rgba(0,0,160,0.4);
+  height: 180px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+#message {
+  font-size:0.7em;
+}
+
+button {
+  font-size:0.8em;
+  background-color: #000000;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  border-radius: 20%;
+  cursor: pointer;
+
+}
+
+
+.img {
+  padding-top: 200px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  padding-right: 100px;
+}
+
+.proceed {
+  font-size: 20px;
+}
