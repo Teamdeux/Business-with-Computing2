@@ -1,0 +1,102 @@
+<body> 
+<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+<ul>
+  
+  
+<h1>
+  <strong>Business with Computing<strong>  
+ <img src=http://www.replify.com/wp-content/uploads/2018/04/Screen-Shot-2018-03-14-at-11.56.05-600x594.png>
+  </h1>  
+<li><a href="#page1">Home</li></a>
+  
+<li class="sub-menu-parent">
+<a href="#">Course Years</a>
+<ul class="sub-menu">
+  <li><a href="Yr1.html">Year 1</a></li>
+  <li><a href="Yr2.html">Year 2</a></li>
+  <li><a href="Yr3.html">Year 3</a></li>
+</ul>
+      
+    
+<li><a href="#page5">Staff</li>
+<li><a href="#page6">Contact</li>
+  
+  </li>
+  </body>
+  
+CSS
+
+body
+{
+  font-family: 'Playfair Display', serif;
+  text-position: center;
+  text-align: center;
+  padding-left: 350px;
+  font-size: 20px;
+}
+
+li
+{
+  display: inline-block;
+  margin-right: 20px; 
+  
+}
+
+ul
+{
+  width: 510px;
+  border-none: 1px black solid;
+}
+
+img
+{
+  height: 90px;
+  width: 100px;
+  position:absolute;
+}
+
+a
+{
+text-decoration: none;
+a:
+  hover, a.on 
+	color: #cc3333;
+}
+
+.submenu
+{
+  position:absolute;
+        background-color:#235;
+				left:20px;
+				width:220px;
+				border-radius:2px;
+				box-shadow:1px 2px 5px; 
+				display:none;
+}
+
+.sub-menu-parent{position:relative; 
+  
+}
+.sub-menu{
+  visibility: hidden; /*hide the sub-menu  */
+  /*position submenu text vertically */
+  position:absolute;
+  font-size:17px;
+  top:100%;
+  background-color:#3365;
+	right:10px;
+	width:70px;
+	border-radius:2px;
+	box-shadow:1px 2px 5px; 
+}
+
+.sub-menu-parent:focus .sub-menu,
+.sub-menu-parent:focus-within .sub-menu,
+.sub-menu-parent:hover .sub-menu 
+{
+   /*show sub-menu on hover */
+  visibility: visible; 
+  z-index:1;
+  transform:translateY(0%);
+  
+}
