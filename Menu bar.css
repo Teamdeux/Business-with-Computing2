@@ -1,0 +1,85 @@
+
+.page-header1{
+
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    position: center;
+    font-size: 20px;
+  }
+
+li
+{
+  display: inline-block;
+  margin-right: 20px; 
+}
+
+
+.header2
+{
+  width: 510px;
+  border-none: 1px black solid;
+  text-align: center;
+}
+
+.center
+{
+  background-image url: (http://www.replify.com/wp-content/uploads/2018/04/Screen-Shot-2018-03-14-at-11.56.05-600x594.png);
+  height: 90px;
+  width: 100px;
+  position: absolute;
+}
+
+a
+{
+text-decoration: none;
+a:
+  hover, a.on 
+  color: #cc3333;
+}
+
+
+.sub-menu-parent
+{
+  position:relative; 
+}
+.sub-menu{
+  visibility: hidden; /*hide the sub-menu  */
+  /*position submenu text vertically */
+  position:absolute;
+  font-size:17px;
+  top:100%;
+  background-color:#3365;
+  right:10px;
+  width:70px;
+  border-radius:2px;
+  box-shadow:1px 2px 5px; 
+}
+
+.sub-menu-parent:focus .sub-menu,
+.sub-menu-parent:focus-within .sub-menu,
+.sub-menu-parent:hover .sub-menu 
+{
+   /*show sub-menu on hover */
+  visibility: visible; 
+  z-index:1;
+  transform:translateY(0%);
+}
+
+.page-header
+{
+background-image: url(https://www.njcu.edu/sites/default/files/styles/hero_style_1400x604/public/comsci_4-hero.png?itok=V50cfou3);
+    padding: 12rem 0 6rem;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image-position: center;
+    width: 80rem;
+}
+
+
+
+
+
+
