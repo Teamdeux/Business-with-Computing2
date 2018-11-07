@@ -1,0 +1,37 @@
+<p>Welcome to our Business Studies with Computing module website at Ulster University. This website gives an in-depth look at the modules studied on this course, the lecturers and the assignments. Feel free to have a look around - if you have any additional questions please use the information in our Contact section.</p>
+
+
+<><img src="https://pixfeeds.com/images/18/459501/1200-178456115-students-working-on-computers.jpg">
+<img src="https://www.ulster.ac.uk/__data/assets/image/0008/35594/RS1837_UU-Magee-Oct2014-1209-scr.jpg">
+<img src="https://c1.staticflickr.com/8/7384/11207443333_48d9279f25_b.jpg"</p>
+
+<p>Ulster Business School are excited to welcome new students, to register for our website please complete this form:</p>
+ *Register Form*
+
+<p>If you are a returning student, please log in here:</p>
+*Login Form*
+
+
+<p>An example of what we offer here at Ulster University -
+<p><img class= example src="https://lh3.googleusercontent.com/L87GpGhUzpumaTu8dBcGnA01s90ldw4i14OB9flchWkU6MSNrEb8AF6QoVUSpxGdQI1cvyopU2Ect3IV4a5uUWRdZxbyzc38Lj7t-xpvPAF2U2rFRaLMhX6bIYDoODlWm_blKR7-YHVLpUTJrHYwdeD75lwFx26ojHpGsIJ1G6T1F7Wo7fqY7ZL2ruaobPhcGnioSl4VAVgfBtdeccMic-dMSmLSBISw79hSzST_uTS80LOSY-cMf6ZQS9_qWfxKfj8OfDCjc7TYCtlW0ZDfeAWDFAHaChKlwi5dHg6apmdaOOWFmO4xJDPsz-DxuMdcOJMH-hkvMwtqMNFyrxslTIdS-QKrqYZV9k0YNcQfrUrXm4PqhJQmfM4a7H25Ps11R-nMINWJ5QfEiYlHqO7-MxboeU8nsIuM1jsrrAS-tzRn5xPZqkmHFqB2bn8z-lH4XxjUWmXa4Xhl8gtEwQTvRLtowpIC_H0KlB4ggJpYwD87YMfmLEOGoOg-sXhHHJ49DEVSZYhNSTD5P100Wi7hdFayAMVNR83ZRBiJu0DkpufUIY0ePsr4MPYNqXBtS8MXcNsivG-80ehpLJBBLNlF5YV5Yi1DjdCKreQpm4d9tI3f4sLwaO7UuMyc-crcguRrAZvBoKDdFcKXy8L-qoApdygHXt9-xuY5kTpeml3CuG0=w1133-h302-no"</p>
+
+
+CSS-----
+
+
+img
+{
+  height: 300px;
+  width: 400px;
+}
+
+p
+{
+  text-align: center;
+}
+
+.example
+{
+  width: 1010px;
+  height: 300px;
+}
