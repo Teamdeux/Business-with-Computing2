@@ -1,0 +1,62 @@
+    <footer>
+
+
+  <div class="twitter"> Find us on Twitter: 
+    <a href="https://twitter.com/UlsterUni?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @UlsterUni</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>  </div>
+   
+   <div class="facebook">Find us on Facebook: <a target="_blank" title="follow me on facebook" href="https://www.facebook.com/PLACEHOLDER"><img alt="follow me on facebook" src="https://c866088.ssl.cf3.rackcdn.com/assets/facebook40x40.png" border=0></a> </div>
+   
+ 
+
+   <div class= "float"> © Copyright 2018 Ulster University
+Ulster University is a registered charity (registered with the Charity Commission for Northern Ireland NIC100166).  </div>
+  
+  <div class="developer"> <strong>About the Developer</strong> </div>
+   </footer>
+   
+  
+  
+  CSS
+  
+  
+  
+  
+  footer
+{
+    height:250px;
+    width: 100%;
+    background-color:white;
+    color: #0088dd;
+    
+ 
+}
+
+.twitter{
+  Font-size: 1.6em;
+line-height: 3.0em;
+}
+
+.facebook{
+  font-size: 1.6em;
+  line-height: 3.0em;
+}
+
+
+.float
+{
+	float: right;
+	width: 1000px;
+  height:200px;
+}
+
+.developer
+{
+  font-size: 1.6em;
+  line-height: 3.0em;
+    
+}
+
+   
+   
+   
+  
