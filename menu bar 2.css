@@ -3,59 +3,55 @@ body {
 	font-family: "Avant Garde";
 	letter-spacing: 0.15em;	
 	background-color: #001122;
-
-	width: 100%;
+ 	width: 100%;
 }
-
-#page {
+ #page {
 	/*width: 100%;*/
 	max-width: 840px;
 	min-width: 400px;
 	margin: 10px auto 10px auto;
-	padding: 60px;
+	padding: 80px;
 	border: 6px double #000;
 	background-color: #B7B9BF;}
 
-img {
-    width: 100%;
-    height: auto;*/
+#banner{
+	width: 100%;
+    height: auto;
 }
 
-#logo {
+ #logo {
 	width: 150px;
-	margin: 10px auto 5px auto;}
-
-
-ul {
+	margin-right: 16px;
+}
+	
+ ul {
 	width: 600px;
 	padding: 15px;
-	margin: 0px auto 0px auto;
-	border-top: 2px solid #000;
-	border-bottom: 1px solid #000;
-	text-align: center;}
+	margin: 0px auto 5px auto;
+	border-top: 4px solid #000;
+	border-bottom: 2px solid #000;
+	text-align: center;
+}
 
-li {
+ li {
 	display: inline;
-	margin: 0px 3px;}
-
-p {
+	margin: 0px 1px;
+}
+ p {
 	text-align: center;
 	width: 640px; 
 	margin: 20px auto 20px auto; 
 	font-weight: normal;}
-
-a {
+ a {
 	color: #000000;
 	text-transform: uppercase;
 	text-decoration: none;
 	padding: 6px 18px 5px 18px;
 }
-
-a:hover, a.on {
+ a:hover, a.on {
 	color: #cc3333;
 	background-color: #ffffff;}
-
-.sub-menu-parent
+ .sub-menu-parent
 {
   position:relative; 
 }
@@ -65,14 +61,13 @@ a:hover, a.on {
   position:absolute;
   font-size:17px;
   top:100%;
-  background-color:#3365;
+  background-color:#ffffff;
   right:10px;
   width:70px;
   border-radius:2px;
-  box-shadow:1px 2px 5px; 
+  box-shadow:1px 1px 2px; 
 }
-
-.sub-menu-parent:focus .sub-menu,
+ .sub-menu-parent:focus .sub-menu,
 .sub-menu-parent:focus-within .sub-menu,
 .sub-menu-parent:hover .sub-menu 
 {
@@ -83,53 +78,58 @@ a:hover, a.on {
 }
 
 
-
-
-
-
-.yearoneheader
+/*Headings and Text sizes for each page*/
+ .yearoneheader, .staffheader, .registeration
 {
 	font-size: 2.5em;
 	text-shadow: 1.5px 1.5px 2px #666666;
 	text-align: center;
 }
 
-.yearoneheader, h2, h3, a
+
+ .yearoneheader, h2, h3, a, .staffheader, .registeration
 {
 	font-weight: normal;
 	color: #0088dd;
 }
-
-h2
+ h2
 {
 	font-size: 1.3em;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 }
-
-h3
+ h3
 {
 	font-size: 1.5em;
 }
-
-p
+ p
 {
 	line-height: 1.4em;
 	color: #665544;
   	text-align: left; 
   	font-size: 1.2em;
 }
-
-
-
-form{
+ form{
   text-align:center;
 }
+ 
+/*Staff CSS*/
+#maleprofessor{
+	width: 100%;
+    height: auto;
+}
+#femaleprofessor{
+    width: 100%;
+    height: auto;
+}
+#femaleprofessor1{
+	width: 100%;
+    height: auto;
+}
 
+/*Star Rating for Year Pages*/
 
-
-
-.star-rating {
+ .star-rating {
   border:solid 1px #ccc;
   display:flex;
   flex-direction: row-reverse;
@@ -141,21 +141,166 @@ form{
   margin-left:auto;
   margin-right:auto;
 }
-
-.star-rating input {
+ .star-rating input {
   display:none;
 }
-
-.star-rating label {
+ .star-rating label {
   color:#ccc;
   cursor:pointer;
 }
-
-.star-rating :checked ~ label {
+ .star-rating :checked ~ label {
   color:#f90;
 }
-
-.star-rating label:hover,
+ .star-rating label:hover,
 .star-rating label:hover ~ label {
   color:#fc0;
+} 
+
+
+/*Registeration*/
+
+button {
+  font-size:0.8em;
+  background-color: #000000;
+  color: white;
+  padding: 10px 12px;
+  text-align: center;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+#mark {
+  font-size: 1.0em;
+}
+
+.fname {
+  text-align: center;
+  font-size: 1.5em;
+  width: 100%;
+}
+.sname {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#terms {
+  font-size:0.6em;
+}
+
+
+/*Login CSS*/
+
+
+#deets {
+ padding-left: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+    
+}
+#message {
+  font-size:0.7em;
+}
+
+
+.loginimg {
+  position:absolute; 
+  top:15px; 
+  right:250px;
+  width:150px; 
+  height:20px;
+}
+
+
+
+.proceed {
+  font-size: 20px;
+  font-size:0.8em;
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  border-radius: 20%;
+  cursor: pointer;
+
+}
+
+
+/*Homepage Images*/
+
+#computer1{
+	width: 276px;
+	height: 184px;
+	margin-left: 2px;
+}
+
+#computer2 {
+	width: 276px;
+	height: 184px;
+}
+
+
+#computer4{
+	width: 276px;
+	height: 184px;
+}
+
+#computer3{
+	width: 100%;
+    height: auto;
+}
+
+#example{
+	width: 100%;
+    height: auto;
+}
+
+/*footer*/
+
+footer
+{
+    height:250px;
+    width: 100%;
+    color: #0088dd;
+    
+ 
+}
+
+.twitter{
+  font-size: 1.6em;
+line-height: 3.0em;
+}
+
+.facebook{
+  font-size: 1.6em;
+  line-height: 3.0em;
+}
+
+
+.float
+{
+	float: left;
+	width: 1000px;
+  height:200px;
+}
+
+.developer
+{
+  font-size: 1.6em;
+  line-height: 1.0em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#searchbar{
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+    }
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}
 }
