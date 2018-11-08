@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html> 
+<div>
+<body>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  
+<div class="sectionHeader">
+			<span class="header">
+		<em>About the Developers</em>
+			</span>
+			<hr class="developer" />
+			
+		</div>
+
+<h2><a><p>About Our Site</p></a></h2>
+<p>We have created this site to provide information on Ulster Universitys Business with Computing course.</p>
+ 
+<p>Our website provides a detailed description of the modules that you would study within the business with computing course, it also has information on the staff that will teach the course. 
+The website also allows people to register for the course and to create an account online. 
+There is also a helpful contact us page, where people can find key contact information for staff at ulster university if they have any questions or queries. 
+  
+<p><img id=Firstimg src="https://www.golegal.co.za/wp-content/uploads/2018/07/software-developer.png"</p>
+  
+<p><a><h2>Layout & Design</p></a></h2>
+  <p>When choosing a layout for our website, we wanted to make it easy to navigate and user friendly. For example, when creating the menu bar we wanted to make it straight forward, by including each page name and only including a drop down box for the different years of the course it allows the users to find what page they are looking for, easily. This image shows our menu bar and how it looks on its own - easy to read and easy to navigate. We have also included a screenshot of some of the HTML and CSS code of the menu bar to show how we have used them in the creation of it. To design the menu bar, we wanted the page options all to be in a line across with one drop down box option for years pages, we done this by putting the list of pages in an 'inline block' to ensure they went in a straight line horizontally.</p>
+<p><img src="https://lh3.googleusercontent.com/Ir7iNDddnK6P69FyzM7RqXC_QHUC7xKms441g6_iadg61ukpf9TNH22wjxCUyUvLctFzkqhxFPt9U5vOJw2vw1SsUV-z6PVFMtQptYVHCvBV8ry6i_D5Dvj_W45nPQ-Lx2vwUi-ee9s0XDRlksVjaRJKEiy0t22Kmue4dOIeKJy11SxJ95CppklfVtXhcwKAar1WaEEOBJ9yFAQlGMMfqQPGLtljsUGL02Tq72uFQ6Xqh6N0WEoq0_ODbnbfN_PEzO7YPhFHXh-vPraVwz1OgaNDbxtq_utsl0WbOz1ZF0JXitRFYbCG2YhDGOITRnc_rsxeztwJUKS9unhgp0TYWWWpKKNJyoiqYgupb13wxAabTSYl0eR-5pV9MhIz137hlatoh6w7hMGydSM_E_2ZibdwLsbJmwBfLof4SO0ih084RTV5n5BoYDNVgQd3d4feFuPAA9QGu8QUnud3YwTGsD_plX9hx8eCsHKcoNsQRJqUNjUC5D3GH7c9Qj5LIFpj7yyCoMxBVbLh-G2yJTeLn6vIE4-aqdYRZK_JsJN7UVvbRESZHp1q-m7PEoKs8Ek_DuhtTQH2Sc2hdTuKVDD9HXqmMkxf8AQL6DjZCr3RdQStSQcdsbHqm-wpr7gp9Vu-AjI6iilSGA6G8_Ht-PrDPI4bx_i78IZiNljOMPghypib=w1366-h768-no">
+
+<p>We chose to layout our website in an ordered manor, including new paragraphs for each vital part of information so that the users of the website can clearly find the part of information they are looking for. For example, if someone only wanted to use our website to find the contact details of one of the lecturers - there is a clear button on the menu bar saying "staff" and on that page there are images of the staff members and also the information needed to contact them.</p>
+  
+<p>We used HTML throughout our website to detail what text and images we wanted included in our website. CSS was used to then 'design' the website, allowing us to change the style of font, colours of text and headings and to edit sizes of images. CSS was also heavily used to create the menu bar, mainly the dropdown box as it took a lot of work to get the dropdown box to only appear when hovered over. The design of the dropdown box was chosen as it makes the menu bar easier to use, if you only want to view the modules from Year 3 for example - you don't have to click on to the 
+'years' page and then on to a seperate page. You simply have to hover over the 'years' page and then choose Year 3 which will then take you directly to the page created for Year 3 modules.</p>
+  
+<p>The colour scheme throughout the website was chosen as it is eye catching but the text and images don't get lost throughout, they are still able to be seen. The text is able to be read clearly and the font size isn't too big or too small. The headings throughout each page, clearly identify what information is given in the next paragraph.</p>
+  
+<p><img src="https://lh3.googleusercontent.com/elCTNtjnFkv66Fw10KeybXPitJis0E64OU3H2oFAvf2C6JcatNMTu2UzFGzlz8IJzlAqk-axoNbzlDsPUGn0zd8jfMXmEhgRTbFFWrP7LGoCABL2WbW8azarc1Ry8WOV3plGwAbcSNPz7C0TBFWf48lP7fhmbQdUiamTmWnWnW0C8TL1D3J4Bs3A1hL_f8qY50bchV8TB3l83bil-uxVhTE0ZT4MXQlPwFZ_NJeB_FFPE7alPO7uJYtDaubHritrtCP1IraSbHTXO5zLkrF5XWiMAg0itKiRWOmnHaTkg8ro2u-XNOciWf7SPM5Mxk9ouvf23dxqHKjuXx49XEZfvUhHk8xWjoYU5xsWNBIKg0TQ-DFE1eacESraC8r0ye13QClpETAoe-Hvg-ixsJpNImyAUWN8701Fm7J6m2NfRAYv8cyQbSFQyVY2UcRTAR_lW19Vxz-HivoRAjIh4VJH8SXZEhxS9Zuw5Y9lfEC2omqqyH5Hvq02p-vKZSOikTAuO04JogPQst5X7vscfUlpbKl1N6xxb3-MzoRwRQ3jFj8QnxIo9FP4i40dJN7kmrQHXmS3-1yU2hDSBMlGERcfHC6hg2DuYKddK75fA8gAnx5G5vJYzk8xpv8qXiKsg3ZLiybD84aFbvi7FN6fsExB9Lt7_QBUJYTa7dxQtBFFmG3O=w1366-h768-no">
+
+<p>We decided to have a grey colour scheme throughout all the pages in the website, we chose the grey colour scheme as it is eye catching and the text is easily read over the colour. We done this by laying out a purple base colour and then over lapping it with a box element, which holds our main text content. Each page has a purple border at either side also, we done this to add another design aspect to the page so the pages didn't look like one block of colour and alot of text. </p>
+<p><img src="https://lh3.googleusercontent.com/OpHQnJadQ21kY89qC-uvO9h4tG352b9AfiUndYPBIAG4Ocs3QmfUuLxPxXmWVGlNCim85_AZlaj1JYw7upqgUcbNUkaRbMN4D958eEcOIQv6Hr9VoAaHo5Qvkdfebj8FffC1l0sguipUXM54OmfGu84ZfyvHsw7xaQWoC4hEnkFzvnI1JtqVnxPnt016rywDuQeEgwnaYlfmv_FvW18gJes_9Y6C9h_LMYGaPNdGQtAhlObZjJQDAzP2tyc51LV6CXT7KMN5KrWtJC2-Z7jeQ37QgXgXo9Hw92NCUbTKpGs9BATnAhSMHirJ-F7vszPDrFPhQEB-ffNljs3Y7Hh0Z9DFjBw6PzfYmHo0-4J6fQo2aQFM40MDnkGVmClJfyxGvlzxI9fI9tiUG5i7eFAkx0eInpzLtnlAMuCvDmXrCQI1V6uduhLg_Emy_gcGsv_n5I1TLiItypipWtENY0xoas0jbUfyj8rF9_XNTQLaNZh48QlaNpns_f90aeOEaSuwvWfjTcgStNhyP1_cSEF_JstgZgPQPAhWTQPdYJmFLt5r-SvDnT5xzKXvCZEaYWj0QoQBwk3WDwfZlnSJoqJ3YT8zC8W9vB39VNz-1Z3VHCrn15ThO5jvwzw4d9fSe5gvvwsDx2FdbBNNr6rkh9eO7__VeDFftKMPyvMLw8q-TuLz=w1366-h768-no"</p>
+
+
+
+  <p><a><h2 id="About Our Team">About Our Team</a></h2></p>
+<p id="about-us">
+<table>
+  <tr>
+    <td class="TD1">Lauren McGeown</td>
+    <td class="TD2">Caitlin Boast</td>
+    <td class="TD3">James Woods</td>
+    <td class="TD4">Christopher Donnelly</td>
+  </tr>
+  <tr>
+    <td class="TD1">Lauren is 22 and from Lurgan and she is currently studying Business with Computing.</td>
+    <td class="TD2">Caitlin is 19 and from Derry and she is currently studying Information Technologies.</td>
+    <td class="TD3">James is 19 and from Belfast and he is currently studying Business Information Systems.</td>
+    <td class="TD4">Christopher is 19 and from Fermanagh and he is currently studying Business Information Systems.</td>
+  </tr>
+  <tr>
+    <td class="TD1">Lauren was responsible for:
+      <ul>
+        <li>Home Page</li>
+        <li>Menu Bar</li>
+        <li>Mini Site</li>
+        <li>CV</li>
+      </ul>
+      <td class="TD2">Caitlin was responsible for:
+        <ul>
+          <li>Staff Page</li>
+          <li>Year One</li>
+          <li>Team Overview</li>
+          <li>CV</li>
+        </ul>
+       <td class="TD3">James was responsible for:
+         <ul>
+           <li>Year Two</li>
+           <li>Login Form</li>
+           <li>Registration Form</li>
+           <li>CV</li>
+         </ul>
+         <td class="TD4">Christopher was responsible for:
+           <ul>
+             <li>Contact Us</li>
+             <li>Year Three</li>
+             <li>Footer</li>
+             <li>CV</li>
+           </ul>
+        </td>
+  </tr>
+  </table>
+  </p>
+  <br>
+<p><img id="team" src="https://educationalresearchtechniques.files.wordpress.com/2015/05/12.jpg"></p>
+  
+<p>Overall, we were happy with how our website turned out. We feel the layout and design of the website makes it look professional and is user friendly. We worked very well as a team, everyone done their own part and nobody was left to do more than anyone else. Working in a team to complete the website was beneficial as it allowed us to make sure that all tasks were completed effectively and on time. Meeting each week was beneficial also as if anyone was stuck on any part of their own individual work, another team member was able to help.</p>
+ 
+</body>
+</html>
+
+  
+CSS
+
+
+body
+{
+font-family: 'Open Sans', sans-serif;
+background-color: #9FB4C7;
+font-color: #2B303A;
+}
+
+.sectionHeader {
+	font-size: 50px;
+	text-align: center;
+	color: #4a6b93;
+	margin-bottom: 30px;
+}
+
+.sectionHeader .header {
+	font-size: 26px;
+}
+
+span.header {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	background-color: #FFF;
+	position: relative;
+	z-index: 50;
+	padding: 0 9px 0 9px;
+}
+
+.header img 
+{
+	opacity: .45;
+}
+
+
+div
+{
+  font-weight: bold;
+}
+
+a
+{
+  text-decoration: underline;
+  text-align: center;
+}
+
+h1, h2, h3
+{
+  text-align: center;
+}
+
+img
+{
+  height: 300px;
+  position: center;
+}
+
+p
+{
+  text-align: center;
+}
+
+li
+{
+  text-align: center;
+}
+
+table
+{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+.id
+{
+  text-align: center;
+}
+
+.TD1
+{
+ text-align: center; 
+}
+
+.TD2
+{
+  text-align: center;
+}
+
+.TD3
+{
+  text-align: center;
+}
+
+.TD4
+{
+  text-align: center;
+}
+
+#About Our Team
+{
+  text-align: center;
+  font-size: 2.0em;
+}
+
+#Firstimg
+{
+  height: 200px;
+}
+
+.team
+{
+  height: 300px;
+  
+}
+
+
+
+      
+
